@@ -1,0 +1,14 @@
+{
+  "configuration": {
+    "d_model": 64,
+    "layers": 2,
+    "heads": 4,
+    "feedforward": 128,
+    "dropout": 0.1
+  },
+  "selected_lambda_energy": 0.2,
+  "criterion": "maximum worst relative validation gain against matched single-task models",
+  "selection_seed": 42,
+  "test_used": false,
+  "archive_note": "Selections recorded for this run; earlier exploration had already inspected 2025. Not an untouched-test claim."
+}

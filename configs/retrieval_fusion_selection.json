@@ -1,0 +1,19 @@
+{
+  "selected": {
+    "geo_beta": 0.1,
+    "intrinsic_beta": 0.25,
+    "k": 10,
+    "aggregation": "median",
+    "temperature": 0.25,
+    "model_weight": 0.75
+  },
+  "selection_population": "2024 validation only",
+  "test_used_for_selection": false,
+  "validation_metrics": {
+    "log_mae": 0.19020164015832844,
+    "log_rmse": 0.29541846478567946,
+    "log_r2": 0.7558557806525172,
+    "euro_mae": 56470.540445850376
+  },
+  "archive_note": "Selections recorded for this run; earlier exploration had already inspected 2025. Not an untouched-test claim."
+}

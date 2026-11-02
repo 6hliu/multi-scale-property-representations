@@ -1,0 +1,5 @@
+comparison,task,metric,positive_means,point_difference,ci95_lower,ci95_upper,spatial_blocks,bootstrap_repetitions,ci_excludes_zero
+XGBoost full_55 vs intrinsic_only,price,Log-MAE,full_55 improves,0.08171740738909034,0.06760059260409877,0.10284187380107544,78,2000,True
+XGBoost full_55 vs intrinsic_only,energy,macro_f1,full_55 improves,0.10578974160437862,0.08450949008991258,0.12139506132900157,80,2000,True
+XGBoost full_55 vs intrinsic_only,energy,balanced_accuracy,full_55 improves,0.0862509360767306,0.06595148410287048,0.10377174109147151,80,2000,True
+XGBoost full_55 vs intrinsic_only,energy,accuracy,full_55 improves,0.08410536107960698,0.05871018889915326,0.1049778107805402,80,2000,True

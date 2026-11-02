@@ -1,0 +1,4 @@
+gamma_retrieval,selected_step,direct_log_mae,fused_log_mae,fusion_config
+0.003,512,0.19855039430701216,0.1956830939700471,"{""aggregation"": ""median"", ""geo_beta"": 0.1, ""intrinsic_beta"": 0.0, ""k"": 10, ""model_weight"": 0.75, ""temperature"": 0.25}"
+0.01,512,0.20034101429107948,0.1960410765642988,"{""aggregation"": ""median"", ""geo_beta"": 0.25, ""intrinsic_beta"": 0.25, ""k"": 10, ""model_weight"": 0.75, ""temperature"": 0.25}"
+0.03,512,0.20070387452139823,0.19695021470049828,"{""aggregation"": ""softmax"", ""geo_beta"": 0.25, ""intrinsic_beta"": 0.5, ""k"": 20, ""model_weight"": 0.75, ""temperature"": 0.25}"

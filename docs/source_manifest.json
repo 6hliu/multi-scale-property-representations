@@ -1,0 +1,200 @@
+[
+  {
+    "file": "reference_results/contextual_features/test_results.csv",
+    "source": "temporal_main_experiment_2026_09_14/results/classical/test_results.csv",
+    "original_sha256": "d662ffc81cd14b1199e18d8b163192c17d57312c33fff58be5e02b5f86eb1ab5",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/contextual_features/validation_tuning.csv",
+    "source": "temporal_main_experiment_2026_09_14/results/classical/validation_tuning.csv",
+    "original_sha256": "8cb56f385dec2381f9f1af92bd2f2785de968ef625c2477cf385d03cda091432",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/multi_task_transfer/summary.csv",
+    "source": "task2_residual_main_2026_09_26/results/TASK2_RESIDUAL_RESULTS.csv",
+    "original_sha256": "d7e630a83954255d75a5ac726b2e61e89eff98ff4f7e29079c2f28e322fe7066",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/multi_task_transfer/by_seed.csv",
+    "source": "task2_residual_main_2026_09_26/results/task2_by_seed.csv",
+    "original_sha256": "c34b0880ccad11cca84e4828d24916f9036837608821d3aea825167a71c4ea19",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/multi_task_transfer/uncertainty.csv",
+    "source": "task2_residual_main_2026_09_26/results/PAIRED_SPATIAL_BLOCK_UNCERTAINTY.csv",
+    "original_sha256": "102cb28a4f8d3ee73216da6d72bc8004b38c4753038a5dae37d5cb852cac7834",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/earlier_retrieval/test_results.csv",
+    "source": "temporal_main_experiment_2026_09_14/results/retrieval/test_results.csv",
+    "original_sha256": "ec54bb122692167d4402b4249d67a5a94f3d48416a6c43531c36cbad1e737a3c",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/earlier_retrieval/uncertainty.json",
+    "source": "temporal_main_experiment_2026_09_14/results/retrieval/paired_spatial_block_bootstrap.json",
+    "original_sha256": "10600289a67fe34e0b7125f88dc0c997e3c43e1d5f1da764c38fdab5bba7f68d",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/residual_retrieval/test_results.csv",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/test_2025_comparison.csv",
+    "original_sha256": "b1a495d325aab5faefd6bb8672a451b57c18fbbd2aec14c28b0dc7c7d7e2c899",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/residual_retrieval/uncertainty.json",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/paired_spatial_block_uncertainty.json",
+    "original_sha256": "60ba3aa827c47a578b495502b1b127b1e9133518e0584ea88d3cbe43ee2247e9",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/residual_retrieval/gamma_screen_2024.csv",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/gamma_screen_2024.csv",
+    "original_sha256": "d2c4df402449c151ba8e745f98233b7a25385d4451c03c0f786203f85f63a672",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "reference_results/residual_retrieval/seed_stability.csv",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/test_2025_seed_stability.csv",
+    "original_sha256": "a90531d0756219ad3fb12e9f3ed7c45288ad0ec24aeae871d010836f7f8308da",
+    "transform": "none; archived aggregate only"
+  },
+  {
+    "file": "experiments/experiments_2026_09_10/bdnb/enrich_with_bdnb.py",
+    "source": "experiments_2026_09_10/bdnb/enrich_with_bdnb.py",
+    "original_sha256": "946e13d6c41f92902592b9c71714a325d4232c4d7792fcfd5de949d59755a38b",
+    "release_sha256": "b279024d43a758853495a35397349f5e285faf4cd355ed302c7078477c01422e"
+  },
+  {
+    "file": "experiments/experiments_2026_09_10/temporal_dvf/prepare_temporal_dvf.py",
+    "source": "experiments_2026_09_10/temporal_dvf/prepare_temporal_dvf.py",
+    "original_sha256": "a7638003073a165f07b5da435b1beacb56b022e8ff5a48d5ec19296481f60fff",
+    "release_sha256": "74bb90b360a9027f08295f80ad76dee4afc3dce293627a0b9948b5d2dc8c53a0"
+  },
+  {
+    "file": "experiments/inputs/metropole_de_lyon_communes.csv",
+    "source": "inputs/metropole_de_lyon_communes.csv",
+    "original_sha256": "326580700f06bcdacfd18addf3bee67df07a7a0db6dc869ac1033bf87c99a516",
+    "release_sha256": "326580700f06bcdacfd18addf3bee67df07a7a0db6dc869ac1033bf87c99a516"
+  },
+  {
+    "file": "experiments/task2_residual_main_2026_09_26/PROTOCOL.md",
+    "source": "task2_residual_main_2026_09_26/PROTOCOL.md",
+    "original_sha256": "07daf0a96c5bcbaa30c8ad9290e37829ee164188d99c206e053aee73d53e9f8e",
+    "release_sha256": "07daf0a96c5bcbaa30c8ad9290e37829ee164188d99c206e053aee73d53e9f8e"
+  },
+  {
+    "file": "experiments/task2_residual_main_2026_09_26/run_task2_residual.py",
+    "source": "task2_residual_main_2026_09_26/run_task2_residual.py",
+    "original_sha256": "a437678297a26faa391a99aa23c7c3a21fb47344e72b1e54bf218bf50778ae97",
+    "release_sha256": "a437678297a26faa391a99aa23c7c3a21fb47344e72b1e54bf218bf50778ae97"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/PROTOCOL.md",
+    "source": "temporal_main_experiment_2026_09_14/PROTOCOL.md",
+    "original_sha256": "a7a839a380540f48801f5a241e2fa9c8d068dad2aeb2600b690016c1a37efadf",
+    "release_sha256": "a7a839a380540f48801f5a241e2fa9c8d068dad2aeb2600b690016c1a37efadf"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/build_temporal_common.py",
+    "source": "temporal_main_experiment_2026_09_14/build_temporal_common.py",
+    "original_sha256": "047ab22a1b38d378fba3ce0808edd1379f3166fa923df2e04366a6029bc586c3",
+    "release_sha256": "047ab22a1b38d378fba3ce0808edd1379f3166fa923df2e04366a6029bc586c3"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/build_temporal_features.py",
+    "source": "temporal_main_experiment_2026_09_14/build_temporal_features.py",
+    "original_sha256": "eb1fc42f0e7133f7b57f5328c52615c61a6524c41842e09b58995bb321fba593",
+    "release_sha256": "eb1fc42f0e7133f7b57f5328c52615c61a6524c41842e09b58995bb321fba593"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/run_classical_baselines.py",
+    "source": "temporal_main_experiment_2026_09_14/run_classical_baselines.py",
+    "original_sha256": "326f0da6ab763b01ea4d2c3538d4c9d7b91a2e16f261fcb6ab0df2d3b60e9cdc",
+    "release_sha256": "326f0da6ab763b01ea4d2c3538d4c9d7b91a2e16f261fcb6ab0df2d3b60e9cdc"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/run_extended_robustness.py",
+    "source": "temporal_main_experiment_2026_09_14/run_extended_robustness.py",
+    "original_sha256": "147f594324586f32580a7d7d92878ea765ec51b95d6281c2c7676b2518155e5f",
+    "release_sha256": "147f594324586f32580a7d7d92878ea765ec51b95d6281c2c7676b2518155e5f"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/run_sensitivity_analyses.py",
+    "source": "temporal_main_experiment_2026_09_14/run_sensitivity_analyses.py",
+    "original_sha256": "1192782b6736f9ea8549b1fbecd786821897a67b7db62eab831bb0fa06c25931",
+    "release_sha256": "1192782b6736f9ea8549b1fbecd786821897a67b7db62eab831bb0fa06c25931"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/run_temporal_retrieval.py",
+    "source": "temporal_main_experiment_2026_09_14/run_temporal_retrieval.py",
+    "original_sha256": "914c0645f77c0136495d13fcd44acb531d6b01c5c784f426c6086f8dad5633e8",
+    "release_sha256": "914c0645f77c0136495d13fcd44acb531d6b01c5c784f426c6086f8dad5633e8"
+  },
+  {
+    "file": "experiments/temporal_main_experiment_2026_09_14/run_temporal_transformer.py",
+    "source": "temporal_main_experiment_2026_09_14/run_temporal_transformer.py",
+    "original_sha256": "f7fee6798c504849f7e05d18d7e448f48e796951900ba319cc12a65924b562b4",
+    "release_sha256": "5f819dac243352f93ae37a1cd809ab7cfc99cfb8051bef0608b272d6670a57b9"
+  },
+  {
+    "file": "experiments/temporal_residual_full_2026_09_23/analyse_full_experiment.py",
+    "source": "temporal_residual_full_2026_09_23/analyse_full_experiment.py",
+    "original_sha256": "57d9c9bdd238fc6b39880ed24a650fc839a5cd9fda90394207de4c4fd00e38db",
+    "release_sha256": "57d9c9bdd238fc6b39880ed24a650fc839a5cd9fda90394207de4c4fd00e38db"
+  },
+  {
+    "file": "experiments/temporal_residual_full_2026_09_23/run_full_experiment.py",
+    "source": "temporal_residual_full_2026_09_23/run_full_experiment.py",
+    "original_sha256": "8e2b49894f57a19296ab292e9f8d1fa771df0c46774c2e9b7e08b592c08596c3",
+    "release_sha256": "8e2b49894f57a19296ab292e9f8d1fa771df0c46774c2e9b7e08b592c08596c3"
+  },
+  {
+    "file": "experiments/temporal_residual_retrieval_fusion_2026_09_24/run_experiment.py",
+    "source": "temporal_residual_retrieval_fusion_2026_09_24/run_experiment.py",
+    "original_sha256": "3c83a0d7216bf25e97764338ce1e3394d677defce7dd6fde60034fc7c7ffc0ec",
+    "release_sha256": "3c83a0d7216bf25e97764338ce1e3394d677defce7dd6fde60034fc7c7ffc0ec"
+  },
+  {
+    "file": "experiments/temporal_residual_screen_2026_09_23/run_residual_screen.py",
+    "source": "temporal_residual_screen_2026_09_23/run_residual_screen.py",
+    "original_sha256": "2e4807ddbd9308255d1fc63694cf9a1c9f109146683c5f2489472fe88901b2d1",
+    "release_sha256": "2e4807ddbd9308255d1fc63694cf9a1c9f109146683c5f2489472fe88901b2d1"
+  },
+  {
+    "file": "experiments/temporal_retrieval_aware_2026_09_24/run_retrieval_aware.py",
+    "source": "temporal_retrieval_aware_2026_09_24/run_retrieval_aware.py",
+    "original_sha256": "84fbda6844d8ea79bc770558d69507f24a45374015bf4b18bdaf0049ec9b7ed8",
+    "release_sha256": "84fbda6844d8ea79bc770558d69507f24a45374015bf4b18bdaf0049ec9b7ed8"
+  },
+  {
+    "file": "experiments/temporal_retrieval_aware_residual_fusion_2026_09_24/PROTOCOL.md",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/PROTOCOL.md",
+    "original_sha256": "49d8a2b1380c035af00a5095ae9dba441dfd74ff285e60f0ab2894a36995a5e5",
+    "release_sha256": "49d8a2b1380c035af00a5095ae9dba441dfd74ff285e60f0ab2894a36995a5e5"
+  },
+  {
+    "file": "experiments/temporal_retrieval_aware_residual_fusion_2026_09_24/run_experiment.py",
+    "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/run_experiment.py",
+    "original_sha256": "36768b236f070bc74f6aa56d922e520026983e75da155bc4081a9c8eb4a55d9c",
+    "release_sha256": "8ed6d30961b57dabc31bd58434998636ef1d982d061419e57206d904809adcf1"
+  },
+  {
+    "file": "experiments/week4_data_pipeline.py",
+    "source": "week4_data_pipeline.py",
+    "original_sha256": "80b41e013cb0f4c358d3c0ccd029488b410c66da8722ccafb8961d511afa7450",
+    "release_sha256": "80b41e013cb0f4c358d3c0ccd029488b410c66da8722ccafb8961d511afa7450"
+  },
+  {
+    "file": "experiments/week5_osm_feature_pipeline.py",
+    "source": "week5_osm_feature_pipeline.py",
+    "original_sha256": "0b70835dbe7f7c4a6395b0c54e5b0fd0ae873d85b556192d12a8541b8f6994dd",
+    "release_sha256": "0b70835dbe7f7c4a6395b0c54e5b0fd0ae873d85b556192d12a8541b8f6994dd"
+  }
+]

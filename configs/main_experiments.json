@@ -1,0 +1,51 @@
+{
+  "role": "Documentation of in-code constants; runners do not load this file automatically.",
+  "seeds": [42, 2026, 314, 7, 99],
+  "periods": {"train": "2021-2023", "selection": "2024", "refit": "2021-2024", "evaluation": "2025"},
+  "evaluation_status": "retrospective; earlier exploration inspected 2025",
+  "transformer": {
+    "d_model": 64, "layers": 2, "heads": 4, "feedforward": 128,
+    "dropout": 0.1, "head_hidden": 48, "batch_size": 1024,
+    "max_final_development_steps": 512, "validation_interval": 128,
+    "optimizer": "AdamW", "learning_rate": 0.0008, "weight_decay": 0.0001,
+    "selected_energy_weight": 0.2,
+    "energy_weight_candidates_original_screen": [0.03, 0.1, 0.2, 0.3],
+    "price_loss": "Huber(delta=1)", "energy_loss": "class-weighted cross-entropy"
+  },
+  "market_index": {
+    "development_reference_year": 2023, "refit_reference_year": 2024,
+    "commune_pseudocount": 50, "postcode_pseudocount": 30,
+    "global_fallback_leave_one_out": false
+  },
+  "xgboost": {
+    "seed": 42, "n_jobs": 4, "tree_method": "hist", "subsample": 0.9,
+    "colsample_bytree": 0.9, "reg_lambda": 1,
+    "candidate_configs": [
+      {"max_depth": 4, "learning_rate": 0.05, "min_child_weight": 5},
+      {"max_depth": 6, "learning_rate": 0.05, "min_child_weight": 5},
+      {"max_depth": 4, "learning_rate": 0.1, "min_child_weight": 10}
+    ],
+    "price_max_trees": 1200, "price_early_stopping_rounds": 60,
+    "energy_max_trees": 800, "energy_candidate_tree_counts": [100, 200, 300, 400, 600, 800],
+    "energy_weighting": "square-root inverse class frequency"
+  },
+  "retrieval_aware_residual": {
+    "gamma_candidates": [0.003, 0.01, 0.03], "selected_gamma": 0.003,
+    "tuple_candidate_neighbours": 768, "negatives_per_tuple": 4,
+    "metric_batch": 256, "metric_temperature": 0.1,
+    "shortlist": 300, "k_candidates": [5, 10, 20],
+    "geo_beta_candidates": [0, 0.1, 0.25],
+    "intrinsic_beta_candidates": [0, 0.25, 0.5],
+    "aggregation_candidates": ["median", "softmax"],
+    "softmax_temperature_candidates": [0.1, 0.25, 0.5],
+    "model_weight_candidates": [0, 0.25, 0.5, 0.75, 1],
+    "selected_k": 10, "selected_aggregation": "median",
+    "selected_geo_beta": 0.1, "selected_intrinsic_beta": 0.25,
+    "selected_model_weight": 0.75, "selected_neighbour_weight": 0.25
+  },
+  "uncertainty": {
+    "spatial_block_m": 3000, "percentiles": [2.5, 97.5],
+    "feature_repetitions": 2000, "final_residual_repetitions": 20000,
+    "resample_training_seeds": false
+  }
+}

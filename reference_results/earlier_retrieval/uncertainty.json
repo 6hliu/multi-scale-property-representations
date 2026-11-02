@@ -1,0 +1,8 @@
+{
+  "definition": "geographic+intrinsic absolute log error minus shared-Transformer absolute log error",
+  "point_difference": 0.014071983490966306,
+  "ci95_lower": 0.010902513676866985,
+  "ci95_upper": 0.018181645076952482,
+  "spatial_blocks": 78,
+  "bootstrap_repetitions": 2000
+}

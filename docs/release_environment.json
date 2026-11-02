@@ -1,0 +1,13 @@
+{
+  "python": "3.11.5",
+  "purpose": "release smoke checks, not historical training lock",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.5",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "torch": "2.14.0",
+    "xgboost": "3.2.0",
+    "requests": "2.34.2"
+  }
+}

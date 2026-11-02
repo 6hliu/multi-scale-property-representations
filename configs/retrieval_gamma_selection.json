@@ -1,0 +1,8 @@
+{
+  "selected_gamma_retrieval": 0.003,
+  "selection_seed": 42,
+  "selection_population": "2024 validation only",
+  "criterion": "minimum validation fused Log-MAE",
+  "test_used_for_selection": false,
+  "archive_note": "Selections recorded for this run; earlier exploration had already inspected 2025. Not an untouched-test claim."
+}

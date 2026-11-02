@@ -1,0 +1,29 @@
+{
+  "Retrieval-aware residual Transformer (direct)": {
+    "comparison": "candidate vs Retrieval-aware residual Transformer (direct)",
+    "point_gain": 0.0028404008713613844,
+    "ci95_lower": 0.002112255632035326,
+    "ci95_upper": 0.003617033689865253,
+    "spatial_blocks": 78,
+    "bootstrap_repetitions": 20000,
+    "positive_favours": "Residual Transformer + retrieval prediction"
+  },
+  "Original residual Transformer + retrieval": {
+    "comparison": "candidate vs Original residual Transformer + retrieval",
+    "point_gain": 0.0028599676447382543,
+    "ci95_lower": 0.001956489883972648,
+    "ci95_upper": 0.004018970436891174,
+    "spatial_blocks": 78,
+    "bootstrap_repetitions": 20000,
+    "positive_favours": "Residual Transformer + retrieval prediction"
+  },
+  "Full-55 XGBoost": {
+    "comparison": "candidate vs Full-55 XGBoost",
+    "point_gain": -0.0016853133451085638,
+    "ci95_lower": -0.0038063825344176534,
+    "ci95_upper": 0.0008505535226556808,
+    "spatial_blocks": 78,
+    "bootstrap_repetitions": 20000,
+    "positive_favours": "Residual Transformer + retrieval prediction"
+  }
+}

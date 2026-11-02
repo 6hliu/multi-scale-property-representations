@@ -1,0 +1,44 @@
+# Local environments and dependencies
+.venv/
+.venv-*/
+venv/
+vendor/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.idea/
+.vscode/
+# Secrets and machine-specific settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+# Raw records, derived records, models and private caches
+data_private/
+experiments/**/data/
+experiments/**/raw/
+experiments/**/raw_osm/
+experiments/**/results/
+experiments/**/triplets/
+experiments/week4_output*/
+experiments/week5_output*/
+*.csv.gz
+*.parquet
+*.jsonl
+*.pt
+*.pth
+*.pkl
+*.pickle
+*.ubj
+*.npy
+*.npz
+*.zip
+*.pdf
+*.pptx
+*.docx
+# Do not blanket-ignore CSV: reference_results and the commune list are public artifacts.

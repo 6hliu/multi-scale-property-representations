@@ -1,0 +1,185 @@
+{
+  "note": "Archived selected checkpoints from 2024 development; documentary, not automatically loaded by runners.",
+  "runs": [
+    {
+      "model": "energy_only",
+      "seed": 42,
+      "selected_step": 384,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/energy_seed42/metadata.json"
+    },
+    {
+      "model": "earlier_price_only",
+      "seed": 42,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/price_seed42/metadata.json"
+    },
+    {
+      "model": "earlier_shared",
+      "seed": 42,
+      "selected_step": 384,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/multi_seed42_lambda0.2/metadata.json"
+    },
+    {
+      "model": "ST-Residual",
+      "seed": 42,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/price_seed42_lambda0/metadata.json"
+    },
+    {
+      "model": "MT-Residual",
+      "seed": 42,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/multi_seed42_lambda0.2/metadata.json"
+    },
+    {
+      "model": "retrieval_aware_residual",
+      "seed": 42,
+      "selected_step": 512,
+      "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/development/gamma_0.003/seed_42/metadata.json"
+    },
+    {
+      "model": "energy_only",
+      "seed": 2026,
+      "selected_step": 256,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/energy_seed2026/metadata.json"
+    },
+    {
+      "model": "earlier_price_only",
+      "seed": 2026,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/price_seed2026/metadata.json"
+    },
+    {
+      "model": "earlier_shared",
+      "seed": 2026,
+      "selected_step": 384,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/multi_seed2026_lambda0.2/metadata.json"
+    },
+    {
+      "model": "ST-Residual",
+      "seed": 2026,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/price_seed2026_lambda0/metadata.json"
+    },
+    {
+      "model": "MT-Residual",
+      "seed": 2026,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/multi_seed2026_lambda0.2/metadata.json"
+    },
+    {
+      "model": "retrieval_aware_residual",
+      "seed": 2026,
+      "selected_step": 512,
+      "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/development/gamma_0.003/seed_2026/metadata.json"
+    },
+    {
+      "model": "energy_only",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/energy_seed314/metadata.json"
+    },
+    {
+      "model": "earlier_price_only",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/price_seed314/metadata.json"
+    },
+    {
+      "model": "earlier_shared",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/multi_seed314_lambda0.2/metadata.json"
+    },
+    {
+      "model": "ST-Residual",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/price_seed314_lambda0/metadata.json"
+    },
+    {
+      "model": "MT-Residual",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/multi_seed314_lambda0.2/metadata.json"
+    },
+    {
+      "model": "retrieval_aware_residual",
+      "seed": 314,
+      "selected_step": 512,
+      "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/development/gamma_0.003/seed_314/metadata.json"
+    },
+    {
+      "model": "energy_only",
+      "seed": 7,
+      "selected_step": 384,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/energy_seed7/metadata.json"
+    },
+    {
+      "model": "earlier_price_only",
+      "seed": 7,
+      "selected_step": 384,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/price_seed7/metadata.json"
+    },
+    {
+      "model": "earlier_shared",
+      "seed": 7,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/multi_seed7_lambda0.2/metadata.json"
+    },
+    {
+      "model": "ST-Residual",
+      "seed": 7,
+      "selected_step": 384,
+      "source": "task2_residual_main_2026_09_26/results/development/price_seed7_lambda0/metadata.json"
+    },
+    {
+      "model": "MT-Residual",
+      "seed": 7,
+      "selected_step": 384,
+      "source": "task2_residual_main_2026_09_26/results/development/multi_seed7_lambda0.2/metadata.json"
+    },
+    {
+      "model": "retrieval_aware_residual",
+      "seed": 7,
+      "selected_step": 512,
+      "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/development/gamma_0.003/seed_7/metadata.json"
+    },
+    {
+      "model": "energy_only",
+      "seed": 99,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/energy_seed99/metadata.json"
+    },
+    {
+      "model": "earlier_price_only",
+      "seed": 99,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/price_seed99/metadata.json"
+    },
+    {
+      "model": "earlier_shared",
+      "seed": 99,
+      "selected_step": 512,
+      "source": "temporal_main_experiment_2026_09_14/results/transformer/development/multi_seed99_lambda0.2/metadata.json"
+    },
+    {
+      "model": "ST-Residual",
+      "seed": 99,
+      "selected_step": 384,
+      "source": "task2_residual_main_2026_09_26/results/development/price_seed99_lambda0/metadata.json"
+    },
+    {
+      "model": "MT-Residual",
+      "seed": 99,
+      "selected_step": 512,
+      "source": "task2_residual_main_2026_09_26/results/development/multi_seed99_lambda0.2/metadata.json"
+    },
+    {
+      "model": "retrieval_aware_residual",
+      "seed": 99,
+      "selected_step": 512,
+      "source": "temporal_retrieval_aware_residual_fusion_2026_09_24/results/development/gamma_0.003/seed_99/metadata.json"
+    }
+  ]
+}

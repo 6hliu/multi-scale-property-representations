@@ -1,0 +1,185 @@
+[
+  {
+    "task": "price",
+    "model": "Naive refit median",
+    "feature_set": "none"
+  },
+  {
+    "task": "energy",
+    "model": "Naive refit majority",
+    "feature_set": "none"
+  },
+  {
+    "task": "price",
+    "model": "Ridge",
+    "feature_set": "full_55_plus_room",
+    "selected_alpha": "100.0"
+  },
+  {
+    "task": "energy",
+    "model": "Logistic regression",
+    "feature_set": "full_55"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_only",
+    "selected_trees": "636.0",
+    "max_depth": "4.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_only",
+    "selected_trees": "800.0",
+    "max_depth": "4.0",
+    "learning_rate": "0.1",
+    "min_child_weight": "10.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates",
+    "selected_trees": "1168.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates",
+    "selected_trees": "800.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates_time",
+    "selected_trees": "379.0",
+    "max_depth": "4.0",
+    "learning_rate": "0.1",
+    "min_child_weight": "10.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates_time",
+    "selected_trees": "100.0",
+    "max_depth": "4.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_250m",
+    "selected_trees": "1200.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_250m",
+    "selected_trees": "800.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_500m",
+    "selected_trees": "1200.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_500m",
+    "selected_trees": "800.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_1000m",
+    "selected_trees": "1199.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_1000m",
+    "selected_trees": "800.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_all_osm",
+    "selected_trees": "1200.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_all_osm",
+    "selected_trees": "600.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates_all_osm",
+    "selected_trees": "1065.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "intrinsic_coordinates_all_osm",
+    "selected_trees": "800.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "price",
+    "model": "XGBoost",
+    "feature_set": "full_55",
+    "selected_trees": "273.0",
+    "max_depth": "6.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  },
+  {
+    "task": "energy",
+    "model": "XGBoost",
+    "feature_set": "full_55",
+    "selected_trees": "600.0",
+    "max_depth": "4.0",
+    "learning_rate": "0.05",
+    "min_child_weight": "5.0"
+  }
+]

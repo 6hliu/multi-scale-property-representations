@@ -1,0 +1,100 @@
+{
+  "selection_population": "2024 validation only",
+  "candidate_period": "2021-2023",
+  "criterion": "minimum validation Log-MAE independently per method; ensemble weight selected last",
+  "test_used": false,
+  "selected": [
+    {
+      "method": "Geographic",
+      "k": 20.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.3820899278562214,
+      "log_rmse": 0.5151233710282845,
+      "log_r2": 0.2576756948911171,
+      "euro_mae": 108248.58776949713,
+      "shortlist": null,
+      "alpha": null,
+      "beta": null,
+      "transformer_weight": null
+    },
+    {
+      "method": "Geographic + intrinsic",
+      "k": 20.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.23361642865903173,
+      "log_rmse": 0.34263487166814094,
+      "log_r2": 0.6715764474878565,
+      "euro_mae": 68231.57846960376,
+      "shortlist": 300.0,
+      "alpha": 2.0,
+      "beta": null,
+      "transformer_weight": null
+    },
+    {
+      "method": "Intrinsic",
+      "k": 20.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.2817127468319083,
+      "log_rmse": 0.3913088837952559,
+      "log_r2": 0.5716383453385141,
+      "euro_mae": 82219.11564464301,
+      "shortlist": null,
+      "alpha": null,
+      "beta": null,
+      "transformer_weight": null
+    },
+    {
+      "method": "Multi Transformer embedding",
+      "k": 10.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.21024267953985656,
+      "log_rmse": 0.3181812027929053,
+      "log_r2": 0.7167824180591833,
+      "euro_mae": 62125.9131769534,
+      "shortlist": 300.0,
+      "alpha": null,
+      "beta": 0.0,
+      "transformer_weight": null
+    },
+    {
+      "method": "Price Transformer embedding",
+      "k": 10.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.20401977139395366,
+      "log_rmse": 0.30939778343668234,
+      "log_r2": 0.7322030859352582,
+      "euro_mae": 59963.37878339099,
+      "shortlist": 300.0,
+      "alpha": null,
+      "beta": 0.0,
+      "transformer_weight": null
+    },
+    {
+      "method": "Raw full features",
+      "k": 20.0,
+      "temporal_adjustment": true,
+      "log_mae": 0.3286674472202196,
+      "log_rmse": 0.44684167391380314,
+      "log_r2": 0.4414288353438146,
+      "euro_mae": 93738.88129484926,
+      "shortlist": 300.0,
+      "alpha": null,
+      "beta": null,
+      "transformer_weight": null
+    },
+    {
+      "method": "Validation ensemble",
+      "k": null,
+      "temporal_adjustment": null,
+      "log_mae": 0.2104961607320115,
+      "log_rmse": 0.3189366449534591,
+      "log_r2": 0.7154359620711238,
+      "euro_mae": 62104.851129404306,
+      "shortlist": null,
+      "alpha": null,
+      "beta": null,
+      "transformer_weight": 0.75
+    }
+  ],
+  "archive_note": "Selections recorded for this run; earlier exploration had already inspected 2025. Not an untouched-test claim."
+}

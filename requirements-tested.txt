@@ -1,0 +1,10 @@
+# Direct dependency versions observed in the release smoke-test environment.
+# Not the complete historical training environment or a transitive lock.
+-r requirements.txt
+numpy==2.4.4
+pandas==3.0.5
+scipy==1.17.1
+scikit-learn==1.8.0
+torch==2.14.0
+xgboost==3.2.0
+requests==2.34.2

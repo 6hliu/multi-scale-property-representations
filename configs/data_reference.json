@@ -1,0 +1,13 @@
+{
+  "output_sha256": "66d30f1ddbe84b632be04728d37ef2d7f0db76dbe1cd3491b1e3d80f56c79e44",
+  "source_rows": {
+    "DPE": 370356,
+    "DVF": 86452
+  },
+  "split_rows": {
+    "train": 249931,
+    "validation": 111948,
+    "test": 94929
+  },
+  "rows": 456808
+}
